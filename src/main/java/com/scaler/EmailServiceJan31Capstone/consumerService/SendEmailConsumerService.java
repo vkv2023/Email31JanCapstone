@@ -42,7 +42,8 @@ public class SendEmailConsumerService {
          Port for TLS/STARTTLS: 587
          */
             final String fromEmail = sendEmailDto.getFrom(); //requires valid gmail id
-            final String password = "xxxx"; // correct password for gmail id
+            // remove the app passoword before using it.
+            final String password = "qdvwijujuxecpwhg"; // correct password for gmail id
             final String toEmail = sendEmailDto.getTo(); // can be any email id
 
             System.out.println("TLSEmail Start");
